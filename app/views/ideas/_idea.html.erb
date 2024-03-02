@@ -1,0 +1,4 @@
+      <td><%= idea.name %></td>
+      <td><%= idea.description %></td>
+      <td><%= image_tag(idea.picture_url, width: 600) if idea.picture? %></td>
+      <td><%= link_to "Show this idea", idea %></td>
